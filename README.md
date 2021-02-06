@@ -1,6 +1,7 @@
 # MVI (Model-View-Intent) Architecture for Android
 MVI stands for Model-View-Intent. Intent in this case isn’t the Android Intent used to start activities, no. Rather, it stands for an intention, a use-case, basically a desire to perform an action.
 
+![android-mvi](https://user-images.githubusercontent.com/60369343/107117861-049d4000-6832-11eb-852d-a2f16f9ab31b.png)
 
 
 
