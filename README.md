@@ -1,6 +1,18 @@
 # MVI (Model-View-Intent) Architecture for Android
-MVI stands for Model-View-Intent. MVI is one of the newest architecture patterns for Android, inspired by the unidirectional and cyclical nature of the Cycle.js framework
-Open-source mobile app 
+MVI stands for Model-View-Intent. Intent in this case isn’t the Android Intent used to start activities, no. Rather, it stands for an intention, a use-case, basically a desire to perform an action.
+
+
+
+
+Advantages
+
+ * View State object makes it clear to see how the View should render itself
+ * Single Source of Truth adherence
+ * Easier to manage one observable stream between the View and Presenter rather than many
+ 
+ 
+ Build With 
+ 
  * Kotlin 
  * Retrofit2
  * Coroutine
